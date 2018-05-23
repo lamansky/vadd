@@ -1,0 +1,44 @@
+{
+  "name": "vadd",
+  "version": "1.0.0",
+  "description": "Adds one or more values to an Array, Set, or other collection.",
+  "keywords": [
+    "add",
+    "value",
+    "collection",
+    "array",
+    "set",
+    "WeakSet"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/vadd",
+  "repository": "lamansky/vadd",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "@lamansky/is-number": "^1.0.0",
+    "filter-iter": "^1.0.0",
+    "is-instance-of": "^1.0.1",
+    "iterify": "^1.0.0",
+    "vhas": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
